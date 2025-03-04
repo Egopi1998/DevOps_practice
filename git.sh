@@ -13,7 +13,7 @@ git_push_repo() {
             cd ..
             continue
         else n
-            echo -e "on $G $i $N .git repo not exist...$Y Skipping the $i $N"
+            echo -e "on $R $i $N .git repo not exist...$Y Skipping the $i $N"
             cd ..
             continue
         fi
