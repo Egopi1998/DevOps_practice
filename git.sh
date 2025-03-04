@@ -3,6 +3,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 ls_cmd=$(find . -maxdepth 1 -type d ! -name ".")
+# ls_cmd=$(ls -d *)
 git_push_repo() {
     for i in $ls_cmd ; do
         cd "$i" || continue
